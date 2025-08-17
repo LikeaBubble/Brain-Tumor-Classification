@@ -13,5 +13,17 @@
 * As you know images are gray scale and have 1 channel
 * Resolution of images are 512x512 
 * Link: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+* Some samples from trainset:
+  <img width="777" height="777" alt="output1" src="https://github.com/user-attachments/assets/97677fbd-6ab6-44da-9dc1-d0e04655d901" />
+
 ## Solution & Results
-* fds
+* Training details are as following:
+  1. Pre-trained resnet50
+  2. Image size : 244x244
+  3. Augmentation (Horizontal & Random flip)
+* After 5 epochs, results are as following:
+  - Accuracy on Validation set: 92%
+  - Accuracy on unseen data: 89%  
+  - Predictions on testset:  
+    <img width="777" height="777" alt="output" src="https://github.com/user-attachments/assets/07192dfc-817d-4bac-87df-bbe9ee19c27d" />
+
